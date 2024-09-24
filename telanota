@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+<TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastro"
+            android:textSize="25dp"
+            android:layout_margin="5sp"
+            android:textStyle="italic"
+
+
+        <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+            android:layout_margin="5sp"
+            android:textSize="20dp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:id="@+id/editTextNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome"
+            android:layout_margin="5sp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_margin="5sp"
+            android:textSize="20dp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_margin="5sp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Idade"
+            android:layout_margin="5sp"
+            android:textSize="20dp"
+            android:textStyle="italic"/>
+        <EditText
+            android:id="@+id/editTextIdade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Idade"
+            android:inputType="number"
+            android:layout_margin="5sp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disciplina"
+            android:layout_margin="5sp"
+            android:textSize="20dp"
+            android:textStyle="italic"/>
+        <EditText
+            android:id="@+id/editTextDisciplina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Disciplina"
+            android:layout_margin="5sp"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nota1"
+            android:layout_margin="5sp"
+            android:textSize="20dp"
+            android:textStyle="italic"/>
+        <EditText
+            android:id="@+id/editTextNota1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota 1º Bimestre"
+            android:inputType="numberDecimal"
+            android:layout_margin="5sp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nota2"
+            android:layout_margin="5sp"
+            android:textSize="20dp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:id="@+id/editTextNota2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota 2º Bimestre"
+            android:inputType="numberDecimal"
+            android:layout_margin="5sp"/>
+
+
+        <Button
+            android:backgroundTint="@color/black"
+            android:id="@+id/buttonEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:layout_margin="5sp"/>
+
+        <Button
+            android:backgroundTint="@color/black"
+            android:id="@+id/buttonResetar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpar"
+            android:layout_margin="5sp"
+            />
+
+
+        <TextView
+            android:id="@+id/textViewErro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:visibility="gone"
+            android:layout_margin="5sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/textViewResumo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_margin="5sp"
+            android:textStyle="italic"/>
+    </LinearLayout>
